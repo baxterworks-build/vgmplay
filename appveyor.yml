@@ -1,5 +1,10 @@
 image: Visual Studio 2017
 
+before_build:
+  - cd c:\tools\vcpkg
+  - vcpkg integrate install
+  - vcpkg install zlib:x86-windows-static
+
 build:
   project: VGMPlay/VGMPlay.sln
   verbosity: quiet
