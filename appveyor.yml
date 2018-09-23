@@ -12,7 +12,7 @@ build:
   verbosity: quiet
   
 platform:
-  - x86
+  - Win32
 
 configuration:
   - Release-static
