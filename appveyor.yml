@@ -8,6 +8,6 @@ configuration:
   - Release
 
 artifacts:
-  - path: **\*.exe
+  - path: '**\*.exe'
     name: release-x64
     type: zip
