@@ -19,11 +19,11 @@ configuration:
   - Release
 
 artifacts:
-  - path: C:\projects\vgmplay\VGMPlay\Release-static
+  - path: VGMPlay\Release-static
     name: vgmplay-$(APPVEYOR_CONFIGURATION).zip
     type: zip
 
-  - path: C:\projects\vgmplay\VGMPlay\Release_win32
+  - path: VGMPlay\Release_win32
     name: vgmplay-$(APPVEYOR_CONFIGURATION).zip
     type: zip
 cache: c:\tools\vcpkg\installed\
