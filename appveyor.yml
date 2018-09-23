@@ -24,3 +24,6 @@ artifacts:
     type: zip
 
 cache: c:\tools\vcpkg\installed\
+
+after_build:
+  - ps: Get-ChildItem -Recurse *.exe
