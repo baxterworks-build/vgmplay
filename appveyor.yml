@@ -19,7 +19,7 @@ configuration:
   - Release
 
 artifacts:
-  - path: 'Release'
+  - path: 'Release*\'
     name: release$(APPVEYOR_CONFIGURATION).zip
     type: zip
 
