@@ -2,3 +2,12 @@
 
 build:
   project: VGMPlay/VGMPlay.sln
+  verbosity: quiet
+  
+configuration:
+  - Release
+
+artifacts:
+  - path: **\*.exe
+    name: release-x64
+    type: zip
